@@ -1,0 +1,50 @@
+{
+	"name": "instagram-react",
+	"version": "0.0.1",
+	"description": "This is an educationl project to learn advanced react",
+	"main": "index.ts",
+	"scripts": {
+		"test": "test",
+		"build": "webpack",
+		"lint": "standard",
+		"dev": "webpack-dev-server"
+	},
+	"repository": {
+    "type": "git",
+    "url": "git+https://github.com/andresjjn/instagram-react.git"
+	},
+	"keywords": [
+    "react",
+    "instagram",
+    "node"
+	],
+	"author": "Andres Jejen (andresjjn)",
+	"license": "MIT",
+	"bugs": {
+    "url": "https://github.com/andresjjn/instagram-react/issues"
+	},
+	"homepage": "https://github.com/andresjjn/instagram-react#readme",
+	"devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "html-webpack-plugin": "^3.2.0",
+    "standard": "^17.0.0",
+    "webpack": "^4.33.0",
+    "webpack-cli": "^3.3.3",
+    "webpack-dev-server": "^3.7.1"
+	},
+	"dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+	},
+	"standard": {
+    "ignore": [
+      "/api/**"
+    ]
+	},
+  "eslintConfig": {
+    "extends": ["./node_modules/standard/eslintrc.json"]
+  }
+}
